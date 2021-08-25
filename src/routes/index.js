@@ -11,7 +11,7 @@ const routes = () => {
                 <Route exact path='/'>
                     {/* <Questions/> */}
                 </Route>
-                <Route path="/detail/:id">
+                <Route path="/questions/:id">
                     {/* <QuestionsDetail/> */}
                 </Route>
             </Switch>
